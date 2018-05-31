@@ -1,0 +1,373 @@
+.jumbotron {
+    background: url("../images/home_img2.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 5em inherit;
+    height: 500px;
+}
+
+/* body {
+    padding: 50px;
+    
+} */
+
+.container .btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    
+}
+.btn-warning {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #ffc107;
+}
+
+.categories{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    padding-top: 50px;
+    
+}
+
+h1 {
+    padding-left: 10px;
+}
+.btn-group-toggle{
+    position: relative;
+    right: 25%;
+    display: -webkit-inline-box;
+}
+
+#submit {
+    position: absolute;    
+    right: 35%;
+    top: 86%;
+    color: #fff;
+    border-color: #d9534f;
+    padding: 8px 30px;
+}
+#dietSelect {
+    position: absolute;
+    right: 10%;
+    top: 88.4%;
+}
+
+#needCuisine {
+        position: absolute;    
+        right: 48%;
+        top: 83%;
+        color:  black;
+        font-size: 15pt;
+        border-color: #d9534f;
+        padding: 8px 30px;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+.btn-group, .btn-group-vertical {
+    position: absolute;
+    right: 50%;
+    bottom: 8%;
+}
+
+.cuisines {
+    padding: 6px;
+}
+
+.cuisines:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+#photo {
+    width: 400px;
+    height: 300px;
+    filter: opacity(90%);
+    filter: contrast(10%);
+    filter: drop-shadow(5px 5px 5px grey);
+  }
+  
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+.radio-color {
+    background: whitesmoke;
+    border-radius: 15px 50px;
+    padding: 20px; 
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px grey);
+    position: flex;
+    left: 200px;
+    top: 400px; 
+}
+
+
+
+/* Media Queries*/
+
+@media all and (max-width:480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .container .btn {
+        position: absolute;
+        top: 65%;
+        left: 40%;
+    }
+    
+    h1 {
+        width: 150%;
+        position: relative;
+        right: 60%;
+    }
+    
+    .categories {
+        padding-top: 40%;
+    
+    }
+    .btn-group-toggle {
+        display: inherit;
+    }
+    #dietSelect {
+        position: absolute;
+        left: 50%;
+        top: 90%;
+    }
+    .cuisineDisplay {
+        position: absolute;
+        top: 80%;
+        right: 55%;
+       }
+       #submit {
+        position: absolute;
+        width: 28%;
+         top: 80%;
+         left: 60%;   
+    }
+    #recipeName {
+        text-align: center;
+        padding-left: 200px;
+        font-size: 4vmax;
+    }
+ }   
+
+
+
+/* @media only screen and (max-width: 1024px) {
+    
+    .container .btn {
+        position: absolute;
+        top: 65%;
+        left: 62%;
+    }
+    
+    h1 {
+        width: 100%;
+    }
+    .categories{
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        padding-top: 55px;
+    }
+  
+    .btn-group-toggle{
+        position: relative;
+        right: 27%;
+    }
+    .btn-group, .btn-group-vertical {
+        position: absolute;
+        right: 35%;
+        bottom: 9%;
+    }
+    #dietSelect {
+        position: absolute;
+        left: 85%;
+        top: 72%;
+    }
+
+    #submit {
+        position: absolute;
+         top: 85%;
+         left: 70%;   
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        overflow-x: hidden;
+        width: 980px;
+    }
+ 
+    .btn-group-toggle{
+        position: relative;
+        right: 27%;
+    }
+    
+    .subbtn{
+        position: absolute;
+        right: 75%;
+    }
+    .container .btn {
+        position: absolute;
+        top: 65%;
+        left: 55%;
+ }
+    .categories{
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    
+    .container .btn {
+        position: absolute;
+        top: 65%;
+        left: 62%;
+    }
+    
+    h1 {
+        width: 70%;
+    }
+    .categories{
+        width: 60%;
+        position: absolute;
+        left: 50%;
+        padding-top: 55px;
+    }
+    .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group.btn-group {
+        margin-left: -10px;
+    }
+    .btn-group-toggle {
+        display: inherit;
+ 
+    }
+    .btn-group, .btn-group-vertical {
+        position: absolute;
+        right: 35%;
+        bottom: 9%;
+    }
+
+    #submit {
+        position: absolute;
+         top: 83.5%;
+         left: 74%;   
+    } */
+    /* .sidebar {
+        display: none;
+    } */
+    /* .checkbox {
+        padding-left: 0px;
+    }
+    .btn {
+        margin: 5px;
+    }
+    .hero-full-wrapper {
+        width: 70%;
+    }
+
+
+ } */
+ 
+ /* @media only screen and (max-width: 640px) {
+     body {
+         overflow-x: hidden;
+         width: 640px;
+     }
+    
+    .container .btn {
+        position: absolute;
+        top: 65%;
+        left: 42%;
+    }
+    
+    .categories {
+        position: absolute;
+        top: 90%;
+        left: 20%;
+    }
+    .checkbox {
+        padding-left: 0px;
+    }
+    
+    .btn-group-toggle {
+        display: inline-flex;
+
+    }
+    #submit {
+        position: absolute;
+        right: 30%;
+    }
+    
+    
+ } */
+ /* @media only screen and (max-width: 640px) and (min-width: 300px) {
+     
+    html {
+        width: 100%;
+    }
+   
+    .container .btn {
+       position: absolute;
+       top: 65%;
+       left: 40%;
+   }
+    h1 {
+       position: relative;
+       right: 23%;
+   }
+   
+   .categories {
+        position: absolute;
+        top: 75%;
+        width: 100%;      
+   }
+   .checkbox {
+       padding-left: 0px;
+   }
+   
+   .btn-group-toggle {
+       display: inherit;
+
+   }
+   #submit {
+       position: absolute;
+       width: 28%;
+        top: 80%;
+        left: 10%;   
+   }
+
+   #dietSelect {
+    position: absolute;
+    left: 90%;
+    top: 80%;
+}
+   #foodSearch {
+       position: absolute;
+       right: 60%;
+   }
+   #recipeName {
+       text-align: center;
+       padding-left: 80px;
+   }
+   
+   
+} */
